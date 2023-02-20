@@ -1,6 +1,7 @@
+import { IData } from '../../interface/IData';
 import './Card.scss';
 
-export const Card = ({ data }) => {
+export const Card = ({ data }: IData) => {
 	return (
 		<>
 			{

@@ -11,6 +11,7 @@ function App() {
     const fetch = async () => {
       const res = await axios.get(url)
       setItem(res.data.data.results)
+      console.log(res.data.data.results)
     }
     fetch()
   }, [url])
